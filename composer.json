@@ -1,0 +1,14 @@
+{
+    "name": "rayleenj/lazadaapi",
+    "description": "Lazada API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rayleenjoy",
+            "email": "rayleenjoy.eulogio@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
