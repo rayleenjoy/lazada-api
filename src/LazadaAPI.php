@@ -1,6 +1,5 @@
 <?php
-
-namespace rayleenj\lazadaapi;
+namespace Rayleenj\Lazadaapi;
 
 use Exception;
 use rayleenj\lazadaapi\lazada_sdk\LazopClient;
