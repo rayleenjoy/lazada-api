@@ -39,9 +39,6 @@ class LazadaAPI {
 		if(!isset($api['apiSecret']) || empty($api['apiSecret'])){
 			return 'apiSecret not defined or empty.';
 		}
-		if(!isset($api['apiAccessToken']) || empty($api['apiAccessToken'])){
-			return  'apiAccessToken not defined or empty.';
-		}
 		return '';
 	}
 
@@ -56,7 +53,11 @@ class LazadaAPI {
 				$request->addApiParam($key, $parameter);
 			}
 		}
-		$result = $this->lazopclient->execute($request, $this->apiAccessToken);
+		if($this->apiAccessToken){
+			$result = $this->lazopclient->execute($request, $this->apiAccessToken);
+		}else{
+			$result = $this->lazopclient->execute($request);
+		}
 		return json_decode($result);
 	}
 
