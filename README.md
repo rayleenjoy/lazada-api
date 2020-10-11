@@ -1,13 +1,13 @@
 # lazada-api
 Lazada API
 
-This is the Open Platform LAzada API Client for PHP
+    This is the Open Platform LAzada API Client for PHP
 
-#installation
-$ composer require rayleenj/lazadaapi
+# installation
+    composer require rayleenj/lazadaapi
 
-#usage
-Register an Account in https://open.lazada.com/ and get App Data
+# usage
+    Register an Account in https://open.lazada.com/ and get App Data
 
 call LazadaAPI class
 
