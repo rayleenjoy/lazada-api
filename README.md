@@ -7,11 +7,10 @@ Lazada API
     composer require rayleenj/lazadaapi
 
 # usage
-    Register an Account in https://open.lazada.com/ and get App Data
+  Register an Account in https://open.lazada.com/ and get App Data
 
-call LazadaAPI class
 
-<?php
+    <?php
 
     $api = [
       'apiLink' => API_LINK,
